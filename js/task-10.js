@@ -31,4 +31,4 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-dataDestroyBtnEl.addEventListener('click', () => { boxesEl.innerHTML = ''; inputEl.value = ''; });
+dataDestroyBtnEl.addEventListener('click', () => { boxesEl.innerHTML = ''; inputEl.value = ''; divArrEl.length = 0;});

@@ -10,10 +10,10 @@ function onSubmitBtnClick(event) {
             password: event.currentTarget.elements.password.value,
        }
         console.log(formData);
+        event.currentTarget.reset();
     } else {
         alert("Заповніть, будь ласка, всі поля.")
     }
 
-    event.currentTarget.reset();
 }
 
